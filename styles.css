@@ -1,0 +1,12 @@
+body {
+font-size: 13px;
+overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+}
+
+.front-logo {
+    border-radius: 2rem;
+}
