@@ -25,26 +25,33 @@
 
 </head>
 <body>
-
-
-<nav class="row navbar bg-dark text-white ">
-    <div class="left-side">
-        <img src="img/logo.png" alt="" class="logo img-fluid " width="25">
-        <a href="#"><i></i>HOME</a>
-        <a href="#"><i></i>COLLECTIONS</a>
-        <a href="#"><i></i>PURCHASE LIST</a>
-        <span class="badge badge-danger ba text-white font-weight-bold p-1 border-0">VIEW OFFERS</span>
+<!-- header -->
+<header class="container-fluid bg-dark">
+<nav class="row navbar  text-secondary ">
+    <div class="left-side col-12 col-md-9 d-flex justify-content-around align-items-center">
+        <h5 class="h6 mb-0 mt-1 text-white"><img src="img/scarket-logo.svg" alt="logo" class="logo img-fluid mr-2" width="25"><strong>LIBGEN</strong></h5>
+        <a href="#" class="mx-2"><i class="fas fa-home mx-2"  width="15"></i>HOME</a>
+        <a href="#" class="mx-2"><i class="fas fa-th mx-2" width="15"></i>COLLECTIONS</a>
+        <a href="#" class="mx-2"><i class="fas fa-shopping-cart mx-2" width="15"></i>PURCHASE LIST</a>
+        <a href="#" class="d-none d-md-flex"><span class="rounded badge-scarlet text-white font-weight-bold mx-3 p-2 border-0">VIEW OFFERS</span></a>
     </div>
-        <div class="right-side">
-            <a href=""><i></i></a>
-            <i></i>
+        <div class="right-side col-md-3 d-none d-md-flex">
+            <a href=""><i class="fas fa-envelope mx-4" width="15"></i></a>
+            <a href="#" class="text-white">John Doe</a> 
+         <a href="#"><i class="fas fa-user mx-2" width="15"></i></a>
         </div>
 </nav>
+</header>
+
+<!-- main -->
 <main>
-    <div class="container-desktop ">
-        <div class="head-banner bg-danger d-flex flex-column align-items-center">
-            <h5 class="h5 display-3">IK</h5>
-            <h3>books in one place</h3>
+
+    <!-- desktop -->
+    <!-- main banner -->
+    <div class="d-none d-md-block container-md-fluid container-desktop">
+        <div class="head-banner bg-scarlet d-flex flex-column align-items-center py-4 justify-content-center text-white">
+            <h5 class="h5 display-3 d-flex flex-column align-items-center"><strong>LIBGEN</strong></h5>
+            <h3>Every retail books in one place</h3>
             <div class="search-bar d-flex flex-row"></div>
             <div class="form d-flex flex-row justify-content-center">
                 <select>
@@ -59,25 +66,25 @@
                 </div>
                 <div>
                     <div class="label" for="What's your next read?"></div>
-                    <input type="text" value="">
+                    <input type="text" value="Where should we ship it?">
                 </div>
 
             </div>
         </div>
-
-        <div class="container hot-ads ">
-            <div class="row">
-            <h4 class="col-12">HOT ADS</h4>
+        <!-- hot ads -->
+        <div class="container-fluid hot-ads bg-white">
+            <div class="row d-flex justify-content-center py-3">
+            <h4 class="h4 text-scarlet font-weight-bolder col-12 ml-5 pl-5">HOT ADS</h4>
             <div id="carouselExampleControls" class="carousel slide col-4" data-ride="carousel">
-                <div class="carousel-inner">
+                <div class="carousel-inner bg-light">
                   <div class="carousel-item active">
-                    <img class="d-block" src="/img/51w4zG9Dn6L.jpg" width="200" alt="First slide">
+                    <img class="d-block m-auto" src="/img/51w4zG9Dn6L.jpg" width="200" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block" src="/img/51w4zG9Dn6L.jpg"  width="200" alt="Second slide">
+                    <img class="d-block m-auto" src="/img/51w4zG9Dn6L.jpg"  width="200" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block" src="/img/51w4zG9Dn6L.jpg" width="200" alt="Third slide">
+                    <img class="d-block m-auto" src="/img/51w4zG9Dn6L.jpg" width="200" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -89,18 +96,22 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
-            <div class="right-column">
-                <h4></h4>
-                <p></p>
-                <p>By<small></small></p>
-                <p>Location <small></small></p>
+            <div class="right-column text-secondar col-4">
+                <h4 class="text-scarlet font-weight-bold h6 ">Becoming Michelle Obama</h4>
+                <p class="p ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque accusantium corrupti voluptatum ab illum laudantium culpa itaque repudiandae tempora assumenda.</p>
+                <p>By <span class="font-weight-light">Michelle Obama</span></p>
+                <p>Location: <span class="font-weight-light">United States</span></p>
+                <a href="#" class="btn btn-scarlet text-white font-weight-bold">$10</a> 
             </div>
         </div>
         </div>
     </div>
-    <div class="container-fluid">
-    <div class="row">
-            
+    <!-- all versions - mobile -->
+    <div class="container-fluid my-5">
+        
+        <!-- genres -->
+        <!-- fiction -->
+                <div class="row">
             <div class="col-12">
                 <i class=""></i>
                 <h6 class="h6">FICTION <p class="text-secondary"></p></h6>
@@ -109,10 +120,12 @@
                 <div class="card">
                     <img class="card-img-top" src="img/51w4zG9Dn6L.jpg" width="100" alt="Card image cap">
                     <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
+                         <h5 class="card-title font-weight-bold text-secondary">Card title</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold">Card title</small></h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <div class="d-flex flex-row justify-content-between">
-                        <a href="#" class="btn btn-primary">+</a> <span class="p text-danger font-weight-bol">$10</span>
+                      <span><strong>Location: </strong> 21th Street, New York</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
                     </div>  
                     </div>
                 </div>
@@ -121,10 +134,12 @@
                 <div class="card">
                     <img class="card-img-top" src="img/51w4zG9Dn6L.jpg" width="100" alt="Card image cap">
                     <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
+                         <h5 class="card-title font-weight-bold text-secondary">Card title</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold">Card title</small></h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <div class="d-flex flex-row justify-content-between">
-                        <a href="#" class="btn btn-primary">+</a> <span class="p text-danger font-weight-bol">$10</span>
+                      <span><strong>Location:  </strong>21th Street, New York</span>
+                      <div class="d-flex flex-row justify-content-between pt-3 ">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
                     </div>
                 </div>
                 </div>
@@ -133,10 +148,12 @@
                 <div class="card">
                     <img class="card-img-top" src="img/51w4zG9Dn6L.jpg" width="100" alt="Card image cap">
                     <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
+                         <h5 class="card-title font-weight-bold text-secondary">Card title</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold">Card title</small></h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <div class="d-flex flex-row justify-content-between">
-                        <a href="#" class="btn btn-primary">+</a> <span class="p text-danger font-weight-bol">$10</span>
+                      <span><strong>Location: </strong>21th Street, New York</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
                     </div>
                     </div>
                 </div>
@@ -145,17 +162,19 @@
                 <div class="card">
                     <img class="card-img-top" src="img/51w4zG9Dn6L.jpg" width="100" alt="Card image cap">
                     <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
+                         <h5 class="card-title font-weight-bold text-secondary">Card title</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold">Card title</small></h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <div class="d-flex flex-row justify-content-between">
-                        <a href="#" class="btn btn-primary">+</a> <span class="p text-danger font-weight-bol">$10</span>
+                      <span><strong>Location: </strong>21th Street, New York</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
                     </div>
                     </div>
                 </div>
             </div>
     </div>    
-    <div class="row">
-            
+    <!-- non-fiction science -->
+        <div class="row my-5">
             <div class="col-12">
                 <i class=""></i>
                 <h6 class="h6">FICTION <p class="text-secondary"></p></h6>
@@ -164,10 +183,12 @@
                 <div class="card">
                     <img class="card-img-top" src="img/51w4zG9Dn6L.jpg" width="100" alt="Card image cap">
                     <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
+                         <h5 class="card-title font-weight-bold text-secondary">Card title</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold">Card title</small></h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <div class="d-flex flex-row justify-content-between">
-                        <a href="#" class="btn btn-primary">+</a> <span class="p text-danger font-weight-bol">$10</span>
+                      <span><strong>Location: </strong>21th Street, New York</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
                     </div>  
                     </div>
                 </div>
@@ -176,10 +197,12 @@
                 <div class="card">
                     <img class="card-img-top" src="img/51w4zG9Dn6L.jpg" width="100" alt="Card image cap">
                     <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
+                         <h5 class="card-title font-weight-bold text-secondary">Card title</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold">Card title</small></h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <div class="d-flex flex-row justify-content-between">
-                        <a href="#" class="btn btn-primary">+</a> <span class="p text-danger font-weight-bol">$10</span>
+                      <span><strong>Location: </strong>21th Street, New York</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
                     </div>
                 </div>
                 </div>
@@ -188,10 +211,12 @@
                 <div class="card">
                     <img class="card-img-top" src="img/51w4zG9Dn6L.jpg" width="100" alt="Card image cap">
                     <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
+                         <h5 class="card-title font-weight-bold text-secondary">Card title</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold">Card title</small></h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <div class="d-flex flex-row justify-content-between">
-                        <a href="#" class="btn btn-primary">+</a> <span class="p text-danger font-weight-bol">$10</span>
+                      <span><strong>Location: </strong>21th Street, New York</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
                     </div>
                     </div>
                 </div>
@@ -200,72 +225,91 @@
                 <div class="card">
                     <img class="card-img-top" src="img/51w4zG9Dn6L.jpg" width="100" alt="Card image cap">
                     <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
+                         <h5 class="card-title font-weight-bold text-secondary">Card title</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold">Card title</small></h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <div class="d-flex flex-row justify-content-between">
-                        <a href="#" class="btn btn-primary">+</a> <span class="p text-danger font-weight-bol">$10</span>
+                      <span><strong>Location: </strong>21th Street, New York</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
                     </div>
                     </div>
                 </div>
             </div>
     </div>    
     </div>
+    <!-- footer -->
     <footer>
-        <div class="container">
-        <div class="row">
+        <div class="container-fluid bg-white">
+            <div class="container">
+        <div class="row py-3">
         <div class="col-3 d-flex flex-column">
             <h6 class="h6">BOOKS</h6>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iste, iusto dolor odio impedit totam facilis magni debitis praesentium ipsam!</p>
         </div>
         <div class="categories col-3">
-                <h6 class="h6 text-danger border-bottom">ASDASDAS</h6>
+                <h6 class="h6 text-scarlet border-bottom">ASDASDAS</h6>
                 <div class="row d-flex flex-row justify-content-between text-secondary ">
                 <div class="col-6 d-flex flex-column">
-                    <ul class="li">fiction</ul>
-                    <ul class="li">novel</ul>
-                    <ul class="li">novedades</ul>
-                    <ul class="li">hot deals</ul>
-                    <ul class="li">genres</ul>
-                    <ul class="li">non-fiction</ul>
-                    <ul class="li">idk really</ul>
-                </div>
+                <ul class="list-unstyled px-1">
+                   <li>fiction</li>
+                   <li>novel</li>
+                   <li>novedades</li>
+                   <li>hot deals</li>
+                   <li>genres</li>
+                   <li>non-fiction</li>
+                   <li>idk really</li>
+                </ul>
+            </div>
                 <div class="col-6 d-flex flex-column">
-                <ul class="li">fiction</ul>
-                    <ul class="li">novel</ul>
-                    <ul class="li">novedades</ul>
-                    <ul class="li">hot deals</ul>
-                    <ul class="li">genres</ul>
-                    <ul class="li">non-fiction</ul>
-                    <ul class="li">idk really</ul>
+                <ul class="list-unstyled px-1">
+               <li>fiction</li>
+                   <li>novel</li>
+                   <li>novedades</li>
+                   <li>hot deals</li>
+                   <li>genres</li>
+                   <li>non-fiction</li>
+                   <li>idk really</li>
+                </ul>
                 </div>
             </div></div>
             <div class="categories col-3">
-                <p></p>
-                <hr>
-                <div class="row d-flex justify-content-start"></div>
-                <div class="col-6 d-flex flex-column"></div>
+                <h6 class="h6 text-scarlet border-bottom">ASDASDAS</h6>
+                <div class="row d-flex flex-row justify-content-start text-secondary ">
+                <div class="d-flex flex-column">
+                <ul class="list-unstyled pl-4">
+                   <li>fiction</li>
+                   <li>novel</li>
+                   <li>novedades</li>
+                   <li>hot deals</li>
+                   <li>genres</li>
+                   <li>non-fiction</li>
+                   <li>idk really</li>
+                </ul>
+                </div>
+            </div></div>
+            <div class="col-3 d-flex flex-column ">
+                <div class="row mx-3">
+                <div class="col-12 d-flex justify-content-lg-between my-3">
+                    <div class="span">COUNTRY</div>
+                    <div class="a border p-1">EEUU</div>
+                </div>
+                <div class="col-12 d-flex justify-content-lg-between my-3">
+                    <div class="span">LANGUAGE</div>
+                    <div class="a border p-1">English</div>
+                </div>
+                <div class="col-12 d-flex justify-content-lg-between my-3">
+                    <div class="span">CURRENCY</div>
+                    <div class="a border p-1">US Dollar</div>
+                </div>
             </div>
-            <div class="col-3 d-flex flex-column">
-                <div class="col-12">
-                    <div class="span"></div>
-                    <div class="a"></div>
-                </div>
-                <div class="col-12">
-                    <div class="span"></div>
-                    <div class="a"></div>
-                </div>
-                <div class="col-12">
-                    <div class="span"></div>
-                    <div class="a"></div>
-                </div>
-            </div>
+        </div>
         </div>
         <div class="row">
             <div class="col-12 ">
                 
             </div>
         </div>
-    </div>
+    </div></div>
     </footer> 
 </main>
 
