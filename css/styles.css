@@ -111,3 +111,8 @@ a:hover {
     font-size: 0.75rem;
   }
 }
+
+.pointer,
+.pointer > li {
+  cursor: pointer;
+}
