@@ -1,13 +1,13 @@
 # Capstone Project NTML & CSS
 
-This is the HTML/CSS project #8, from the Microverse's main curriculum and aims to build a layout for a book's online store.
+This is the HTML/CSS project #8, from the Microverse's main curriculum. It was aimed to build an online bookstore that finds the best deals available in the rest of the online bookstores known allowing to compare prices, delivery time, editions, and so forth. For that I was required to change the direction the content is being presented depending on the size of the displaying screen. I've used flexbox and the grid system built in Bootstrap.
 
 ![screenshot](./img/screenshot2.png)
 
 ## Built With
 
 - HTML
-- BOOTSTRAP
+- BOOTSTRAP (CSS)
 
 ## Live Demo
 
