@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  font-size:  .6em;
+  font-size: 0.6em;
 }
 
 a,
@@ -16,6 +16,19 @@ a:hover {
 
 .front-logo {
   border-radius: 2rem;
+}
+
+.logo {
+  width: 25px;
+}
+
+.width-large {
+  width: 200px;
+}
+
+.width-med {
+  width: 100%;
+  max-height: 100%;
 }
 
 .carousel-control-next,
@@ -35,7 +48,7 @@ a:hover {
 }
 
 .head-banner {
-  background-image: url(img/background-logo-50.svg);
+  background-image: url(/img/background-logo-50.svg);
   background-repeat: no-repeat;
   background-position: center  left calc(0.375em + 0.0875rem);
   background-size: 36% 220%;
@@ -93,11 +106,8 @@ a:hover {
   width: 15px;
 }
 
-
 @media screen and (min-width: 576px) {
-
   header {
-    font-size:  .75rem;
+    font-size: 0.75rem;
   }
-  
 }
