@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <!-- google fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+      <!-- font awesome -->
+      <script src="https://kit.fontawesome.com/e3ae6e792d.js" crossorigin="anonymous"></script>
+      <!-- main css -->
+      <link rel="stylesheet" href="css/styles.css">
+  
+      <title>Libgen Capstone</title>
+
+
+</head>
+<body>
+<!-- header -->
+<header class="container-fluid bg-dark">
+    <nav class="row navbar  text-secondary px-0 text-nowrap ">
+        <div class="left-side col-12 col-md-9 d-flex justify-content-around align-items-center">
+            <a onclick="window.location.href='index.html'"><h5 class="h6 mb-0 mt-1 text-white pointer"><img src="img/scarket-logo.svg" alt="logo" class="logo img-fluid mr-2 d-none d-sm-inline " ><strong>LIBGEN</strong></h5></a>
+            <a href="#" class="mx-1" onclick="window.location.href='index.html'"><i class="fas icons-width fa-home mx-1"></i>HOME</a>
+            <a href="#" class="mx-2"><i class="fas icons-width fa-th mx-1"></i>COLLECTIONS</a>
+            <a href="#" class="mx-1"><i class="fas icons-width fa-shopping-cart mx-1"></i>PURCHASE LIST</a>
+            <a href="#" class="d-none d-md-flex"><span class="rounded badge-scarlet text-white font-weight-bold mx-3 p-2 border-0">VIEW OFFERS</span></a>
+        </div>
+            <div class="right-side col-md-3 d-none d-md-flex justify-content-end">
+                <a href="#"><i class="fas icons-width fa-envelope mx-5"></i></a>
+                <a href="#" class="text-white">John Doe</a> 
+             <a href="#"><i class="fas icons-width fa-user mx-3"></i></a>
+            </div>
+    </nav>
+    </header>
+
+<!-- main -->
+<main>
+
+    <!-- desktop -->
+    <!-- main banner -->
+    <div class="d-none d-md-block container-fluid container-desktop px-0">
+        <div class="head-banner bg-scarlet d-flex flex-column align-items-center py-4 justify-content-center text-white">
+            <h5 class="h5 display-3 d-flex flex-column align-items-center my-0"><strong>LIBGEN</strong></h5>
+            <h6 class="font-weight-normal">Best deal for your next reads</h6>
+            <div class="search-bar d-flex flex-row mt-4">
+            <div class="form d-flex flex-row justify-content-center align-items-center">
+                <div class="form-categories">
+                <select class="py-2 select-categories" id="categories">
+                    <option value="text">All categories</option>
+                    <option value="text">Fiction</option>
+                    <option value="text">Non-Fiction</option>
+                    <option value="text">Science</option>
+                </select></div>
+                <div class="py-2">
+                    <div class="label"></div>
+                    <input type="text" placeholder="What's your next read?" class="py-2 width-categories">
+                </div>
+                <div>
+                    <div class="label"></div>
+                    <input type="text"  placeholder="Where should we ship it?" class="py-2 width-categories" >
+                </div>
+                <button type="submit" class="mx-2 py-2 pl-4 pr-4 btn-dark text-white searchbtn" onclick="window.location.href='search-page.html'">Search</button>
+            </div></div> 
+        </div>
+        <!-- hot ads -->
+        <div class="container-fluid hot-ads bg-white ">
+            <div class="row d-flex justify-content-center">
+            <h4 class="h4 text-scarlet font-weight-bolder col-12 mt-3 ml-5 pl-5">HOT ADS</h4>
+            <div id="carouselExampleControls" class="carousel slide col-7 d-flex flex-column flex-md-row col-md-4" data-ride="carousel">
+                <div class="carousel-inner bg-light">
+                  <div class="carousel-item active">
+                    <img class="d-block m-auto width-large" src="./img/51w4zG9Dn6L.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block m-auto width-large" src="./img/51w4zG9Dn6L.jpg"  alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block m-auto width-large" src="./img/51w4zG9Dn6L.jpg" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            <div class="right-column text-secondar col-4">
+                <h6 class="text-scarlet font-weight-bold h6 pointer">Becoming</h6>
+                <p class="p ">An intimate, powerful, and inspiring memoir by the former First Lady of the United States.</p>
+                <p>By <span class="font-weight-light pointer">Michelle Obama</span></p>
+                <p>Hardcover: <span class="font-weight-light">784 pages</span></p>
+                <a href="#" class="btn btn-scarlet text-white font-weight-bold">$10</a> 
+            </div>
+        </div>
+        </div></div>
+    <!-- all versions - mobile -->
+    <div class="container-fluid my-5">
+        
+        <!-- genres -->
+        <!-- fiction -->
+                <div class="row justify-content-center">
+            <div class="col-12">
+                <i class=""></i>
+                <h4 class="h4 mb-lg-3 ml-lg-3">FICTION</h4>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-3 mt-5 mt-lg-0 px-lg-4">
+                <div class="card">
+                    <img class="card-img-top width-med pointer" src="img/ready.jpg" alt="Card image cap">
+                    <div class="card-body">
+                         <h5 class="card-title font-weight-bold text-secondary pointer">Ready Player Two</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold pointer">Ernest Cline</small></h5>
+                      <p class="card-text">The highly anticipated sequel to the beloved worldwide bestseller Ready Player One, the near-future adventure that inspired the blockbuster Steven Spielberg film.</p>
+                      <span><strong>Hardcover: </strong>568 pages</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
+                    </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-3 mt-5 mt-lg-0 px-lg-4">
+                <div class="card">
+                    <img class="card-img-top width-med pointer" src="img/atwood.jpg" alt="Card image cap">
+                    <div class="card-body">
+                         <h5 class="card-title font-weight-bold text-secondary pointer">The Handmaid's Tale</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold pointer">Margaret Atwood</small></h5>
+                      <p class="card-text">An instant classic and eerily prescient cultural phenomenon, from “the patron saint of feminist dystopian fiction” (New York Times). Now an award-winning Hulu series starring Elizabeth Moss.</p>
+                      <span><strong>Hardcover: </strong>452 pages</span>
+                      <div class="d-flex flex-row justify-content-between pt-3 ">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-3 mt-5 mt-lg-0 px-lg-4">
+                <div class="card">
+                    <img class="card-img-top width-med pointer" src="img/kurt.jpg" alt="Card image cap">
+                    <div class="card-body">
+                         <h5 class="card-title font-weight-bold text-secondary pointer">Slaughterhouse-Five: A Novel</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold pointer">Kurt Vonnegut</small></h5>
+                      <p class="card-text">Slaughterhouse-Five, an American classic, is one of the world’s great antiwar books. Centering on the infamous firebombing of Dresden, Billy Pilgrim’s odyssey through time reflects the mythic journey of our own fractured lives as we search for meaning in what we fear most.</p>
+                      <span><strong>Hardcover: </strong>721 pages</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-3 mt-5 mt-lg-0 px-lg-4">
+                <div class="card">
+                    <img class="card-img-top width-med pointer" src="img/chiang.jpg" alt="Card image cap">
+                    <div class="card-body">
+                         <h5 class="card-title font-weight-bold text-secondary pointer">Exhalation</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold pointer">Ted Chiang</small></h5>
+                      <p class="card-text">Nine stunningly original, provocative, and poignant stories. Two being published for the very first time. All from the mind of the incomparable Ted Chiang.</p>
+                      <span><strong>Hardcover: </strong>768 pages</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
+                    </div>
+                    </div>
+                </div>
+            </div></div>
+    <!-- non-fiction science -->
+        <div class="row my-5 justify-content-center">
+            <div class="col-12">
+                <i class=""></i>
+                <h4 class="h4 mb-lg-3 ml-lg-3">NON-FICTION</h4>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-3 mt-5 mt-lg-0 px-lg-4">
+                <div class="card">
+                    <img class="card-img-top width-med pointer" src="img/clear.jpg" alt="Card image cap">
+                    <div class="card-body">
+                         <h5 class="card-title font-weight-bold text-secondary pointer">Atomic Habits</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold pointer">James Clear</small></h5>
+                      <p class="card-text">No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.</p>
+                      <span><strong>Hardcover: </strong>515 pages</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
+                    </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-3 mt-5 mt-lg-0 px-lg-4">
+                <div class="card">
+                    <img class="card-img-top width-med pointer" src="img/kahneman.jpg" alt="Card image cap">
+                    <div class="card-body">
+                         <h5 class="card-title font-weight-bold text-secondary pointer">Thinking, Fast and Slow</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold pointer">Daniel Kahneman</small></h5>
+                      <p class="card-text">In his mega bestseller, Thinking, Fast and Slow, Daniel Kahneman, world-famous psychologist and winner of the Nobel Prize in Economics, takes us on a groundbreaking tour of the mind and explains the two systems that drive the way we think. System 1 is fast, intuitive, and emotional; System 2 is slower, more deliberative, and more logical.</p>
+                      <span><strong>Hardcover: </strong>515 pages</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-3 mt-5 mt-lg-0 px-lg-4">
+                <div class="card">
+                    <img class="card-img-top width-med pointer" src="img/sapiens.jpg" alt="Card image cap">
+                    <div class="card-body">
+                         <h5 class="card-title font-weight-bold text-secondary pointer">Sapiens: A Graphic History</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold pointer">Yuval Noah Harari</small></h5>
+                      <p class="card-text">A hardcover edition of the first volume of the graphic adaptation of Yuval Noah Harari's smash #1 New York Times and international bestseller recommended by President Barack Obama and Bill Gates, with gorgeous full-color illustrations and concise, easy to comprehend text for readers of all ages.</p>
+                      <span><strong>Hardcover: </strong>918 pages</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-3 mt-5 mt-lg-0 px-lg-4">
+                <div class="card">
+                    <img class="card-img-top width-med pointer" src="img/faag.jpg" alt="Card image cap">
+                    <div class="card-body">
+                         <h5 class="card-title font-weight-bold text-secondary pointer">The Four: The Hidden DNA of Amazon, Apple, Facebook, and Google</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold pointer">Scott Galloway</small></h5>
+                      <p class="card-text">For all that’s been written about the Four over the last two decades, no one has captured their power and staggering success as insightfully as Scott Galloway.</p>
+                      <span><strong>Hardcover: </strong>628 pages</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
+                    </div>
+                    </div>
+                </div>
+            </div></div>
+<!-- biographies & memoir -->
+        <div class="row my-5 justify-content-center">
+            <div class="col-12">
+                <i class=""></i>
+                <h4 class="h4 mb-lg-3 ml-lg-3">BIOGRAPHIES & MEMOIR</h4>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-3 mt-5 mt-lg-0 px-lg-4">
+                <div class="card">
+                    <img class="card-img-top width-med pointer" src="img/aurelius.jpg" alt="Card image cap">
+                    <div class="card-body">
+                         <h5 class="card-title font-weight-bold text-secondary pointer">Meditations: A New Translation</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold pointer">Marcus Aurelius</small></h5>
+                      <p class="card-text">Nearly two thousand years after it was written, Meditations remains profoundly relevant for anyone seeking to lead a meaningful life.</p>
+                      <span><strong>Hardcover: </strong>768 pages</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
+                    </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-3 mt-5 mt-lg-0 px-lg-4">
+                <div class="card">
+                    <img class="card-img-top width-med pointer" src="img/obama.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold text-secondary pointer">A Promised Land</h5>
+                        <h5 class="card-title text-scarlet"><small class="font-weight-bold pointer">Barack Obama</small></h5>
+                     <p class="card-text">A riveting, deeply personal account of history in the making—from the president who inspired us to believe in the power of democracy</p>
+                     <span><strong>Hardcover: </strong>520 pages</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-3 mt-5 mt-lg-0 px-lg-4">
+                <div class="card">
+                    <img class="card-img-top width-med pointer" src="img/stoic.jpg" alt="Card image cap">
+                    <div class="card-body">
+                         <h5 class="card-title font-weight-bold text-secondary pointer">The Daily Stoic</h5>
+                         <h5 class="card-title text-scarlet"><small class="font-weight-bold pointer">Ryan Holiday</small></h5>
+                      <p class="card-text">Why have history's greatest minds—from George Washington to Frederick the Great to Ralph Waldo Emerson, along with CEOs and celebrities—embraced the wisdom of the ancient Stoics?</p>
+                      <span><strong>Hardcover: </strong>768 pages</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 col-sm-6 col-lg-3 mt-5 mt-lg-0 px-lg-4">
+                <div class="card">
+                    <img class="card-img-top width-med pointer" src="img/fox.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold text-secondary pointer">No Time Like the Future</h5>
+                        <h5 class="card-title text-scarlet"><small class="font-weight-bold pointer">Michael J. Fox</small></h5>
+                     <p class="card-text">A moving account of resilience, hope, fear and mortality, and how these things resonate in our lives, by actor and advocate Michael J. Fox.</p>
+                     <span><strong>Hardcover: </strong>768 pages</span>
+                      <div class="d-flex flex-row justify-content-between pt-3">
+                        <a href="#" class="btn btn-white btn-outline-secondary">+</a> <span class="p text-scarlet font-weight-bol">$10</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+   </div></div>
+</main>
+   
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid bg-white">
+            <div class="container">
+        <div class="row py-3 d-flex flex-column flex-md-row">
+        <div class="col-3 d-flex flex-column">
+            <h5 class="h6 mb-0 mt-1 text-scarlet border-bottom mb-4 pb-1 pointer"><img src="img/scarket-logo.svg" alt="logo" class="logo img-fluid mr-2" width="25"><strong>LIBGEN</strong></h5>
+            
+        </div>
+        <div class="categories col-12 col-md-3">
+                <h6 class="h6 text-scarlet footer-title-border pb-1 font-weight-bold">CATEGORIES</h6>
+                <div class="row d-flex flex-row justify-content-between text-secondary ">
+                <div class="col-6 d-flex flex-column">
+                <ul class="list-unstyled px-1 pointer">
+                   <li>Hot Deals</li>
+                   <li>Fiction</li>
+                   <li>Non-Fiction</li>
+                   <li>Biographies & Memoir</li>
+                   <li>Bussiness & Investing</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-6 d-flex flex-column">
+                <ul class="list-unstyled px-1 pointer">
+                    <li>Children's Books</li>
+                    <li>Sci-fi</li>
+                   <li>Crime & Thriller</li>
+                   <li>Food & Drink</li>
+                   <li>Mind, Body & Spirit</li>
+                </ul>
+                </div>
+            </div></div>
+            <div class="categories col-12 col-md-3">
+                <h6 class="h6 text-scarlet footer-title-border pb-1 font-weight-bold">NAVIGATION</h6>
+                <div class="row d-flex flex-row justify-content-start text-secondary ">
+                <div class="d-flex flex-column">
+                <ul class="list-unstyled pl-4  pointer">
+                   <li>Home</li>
+                   <li>Sign In</li>
+                   <li>Sign Up</li>
+                   <li>Terms & Conditions</li>
+                   <li>FAQ</li>
+                   <li>Help</li>
+                </ul>
+                </div>
+            </div></div>
+            <div class="col-6 col-md-3 d-flex flex-column">
+                <div class="row mx--md-3 my-3">
+                    <div class="col-12 d-flex justify-content-between my-3">
+                        <div class="span text-scarlet font-weight-bold text-nowrap">COUNTRY</div>
+                        <div class="a border p-1  pointer">EEUU</div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-between my-2">
+                        <div class="span text-scarlet font-weight-bold  text-nowrap">LANGUAGE</div>
+                        <div class="a border p-1  pointer">English</div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-between my-3">
+                        <div class="span text-scarlet font-weight-bold  text-nowrap">CURRENCY</div>
+                        <div class="a border p-1 pointer">US Dollar</div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-12 d-flex flex-column flex-sm-row justify-content-md-between ">
+                <p class="p text-secondary">Copyright 2020 Libgen.com. All Rights Reserved Designed By RealisticAttorney inspired on the work of Mohammed Awad</p>
+                <div class="icons text-nowrap">
+                   <a href="#"><i class="fab fa-2x text-secondary mx-2 fa-yahoo"></i></a>
+                   <a href="#"><i class="fab fa-2x text-secondary mx-2  fa-google-plus-g "></i></a>
+                   <a href="#"><i class="fab fa-2x text-secondary mx-2 fa-twitter"></i></a>
+                   <a href="#"><i class="fab fa-2x text-secondary mx-2 fa-facebook-square"></i></a>
+                   <a href="#"><i class="fab fa-2x text-secondary mx-2 fa-linkedin-in"></i></a> 
+                </div>
+            </div>
+        </div>
+    </div></div>
+    </footer> 
+
+   
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>

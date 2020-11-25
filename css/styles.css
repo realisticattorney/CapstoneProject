@@ -1,0 +1,126 @@
+body {
+  font-size: 13px;
+  overflow-x: hidden;
+  background-color: #f5f5f5;
+}
+
+header {
+  font-size: 0.6em;
+}
+
+a,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.front-logo {
+  border-radius: 2rem;
+}
+
+.logo {
+  width: 25px;
+}
+
+.width-large {
+  width: 200px;
+}
+
+.width-med {
+  width: 100%;
+  max-height: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
+
+.container-desktop,
+.bg-scarlet,
+.btn-scarlet,
+.badge-scarlet {
+  background-color: #d35266;
+}
+
+.text-scarlet {
+  color: #d35266;
+}
+
+.head-banner {
+  background-image: url(/img/background-logo-50.svg);
+  background-repeat: no-repeat;
+  background-position: center  left calc(0.375em + 0.0875rem);
+  background-size: 36% 220%;
+}
+
+.searchbtn {
+  border-radius: 0;
+}
+
+.select-categories {
+  height: 39px;
+  min-width: 120px;
+}
+
+.width-categories {
+  min-width: 200px;
+}
+
+.bg-lightgrey {
+  background-color: #f5f5f5;
+}
+
+.result-item:hover,
+.result-item:hover > * {
+  background-color: white;
+}
+
+.text-grey {
+  color: #888;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  color: black;
+  background-color: white;
+  border-color: #ddd;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover,
+.pagination .actives {
+  z-index: 3;
+  color: #ddd;
+  background-color: #d35266;
+  border-color: #ddd;
+}
+
+.footer-title-border {
+  border-bottom: 3px solid #d35266;
+}
+
+.icons-width {
+  width: 15px;
+}
+
+@media screen and (min-width: 576px) {
+  header {
+    font-size: 0.75rem;
+  }
+}
+
+.pointer,
+.pointer > li {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: contain;
+  }
+}
