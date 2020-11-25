@@ -13,6 +13,8 @@ This is the HTML/CSS project #8, from the Microverse's main curriculum. It was a
 
 [Live Demo Link](https://raw.githack.com/realisticattorney/CapstoneProject/feature/index.html) 
 
+[Author talking briefly about the project](https://www.loom.com/share/93459d0c233d4624b21ec3d689759730)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -39,6 +41,14 @@ https://github.com/realisticattorney/CapstoneProject.git
 - GitHub: [@realisticattorney](https://github.com/realisticattorney) 
 - Twitter: [@ContoliAxl](https://www.twitter.com/contoliaxl)
 - Linkedin: [@germanaquila](https://www.linkedin.com/in/german-aquila-55a9171b5/)  
+
+## Acknowledgement
+
+-To the Microverse team
+
+-And to Mohammed Awad (his Behance profile: https://www.behance.net/M_Awad) for the web design on which I based this project.
+
+Find the original design here: https://www.behance.net/gallery/24796463/ZATTIX
 
 
 ## 🤝 Contributing
