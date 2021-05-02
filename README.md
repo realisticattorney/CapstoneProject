@@ -57,7 +57,7 @@ Find the original design here: https://www.behance.net/gallery/24796463/ZATTIX
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/realisticattorney/CapstoneProject/issues)
+Feel free to check the [issues page](https://www.linkedin.com/in/germanaquila/)
 
 ## Show your support
 
